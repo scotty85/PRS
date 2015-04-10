@@ -1,5 +1,5 @@
 SRC=hellow_world.c
-PROG=$(SRC:,c=)
+PROG=$(SRC:.c=)
 CC=gcc
 CFLAGS="-Wall"
 
